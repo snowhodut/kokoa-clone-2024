@@ -1,0 +1,34 @@
+.screen-header {
+  display: flex;
+  position: fixed;
+  top: 27px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--horizontal-space);
+  background-image: url("../../screenshots/space.png");
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.screen-header__icons span {
+  margin-left: 20px;
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: gearAnimation 1s linear infinite;
+}
+
+@keyframes gearAnimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

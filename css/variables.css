@@ -1,3 +1,7 @@
 :root {
-  --main-color: #f79f81;
+  --main-color: #00dc00;
+  --sub-color: black;
+  --horizontal-space: 25px;
+  --font-grey: grey;
+  --main-border: 1px solid grey;
 }

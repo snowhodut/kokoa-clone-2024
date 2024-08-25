@@ -1,10 +1,17 @@
+#login-screen {
+  background-image: url("../../screenshots/alien.png");
+  background-size: cover;
+}
+
 .welcome-header {
-  margin: 90px 0;
+  margin-top: 170px;
+  margin-bottom: 120px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: 600;
+  color: white;
 }
 
 .welcome-header__title {
@@ -25,15 +32,17 @@
 
 .login-form__input {
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid grey;
   transition: border-color 0.5s ease-in-out;
   padding: 20px 0;
   font-size: 20px;
   margin-bottom: 20px;
+  background-color: transparent;
+  color: white;
 }
 
 .login-form__input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: grey;
 }
 
 .login-form__input:focus {
@@ -46,8 +55,13 @@
   border: none;
   font-size: 20px;
   padding: 25px 0px;
-  margin: 25px 0px;
+  margin-top: 130px;
+  margin-bottom: 25px;
   border-radius: 5px;
+}
+
+.login-form__btn:hover {
+  background-color: white;
 }
 
 .login-form__a {

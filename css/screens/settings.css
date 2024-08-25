@@ -1,0 +1,39 @@
+.main-screen-settings {
+  color: white;
+  background-image: url("../../screenshots/space.png");
+}
+
+.settings-divider {
+  background-color: grey;
+  margin: 20px 0;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 0.5px;
+}
+
+.settings-list {
+  overflow-y: auto;
+  overflow-x: visible;
+}
+
+.settings__setting {
+  padding: 25px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.7;
+}
