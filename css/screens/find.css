@@ -159,3 +159,7 @@
   will-change: transform;
   animation: heartBeat 0.5s linear infinite;
 }
+
+.open-post__column:last-child {
+  margin-bottom: 100px;
+}
