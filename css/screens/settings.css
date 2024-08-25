@@ -1,3 +1,7 @@
+.settings-header {
+  top: 40px;
+}
+
 .main-screen-settings {
   color: white;
   background-image: url("../../screenshots/space.png");
@@ -14,6 +18,10 @@
 .settings-list {
   overflow-y: auto;
   overflow-x: visible;
+}
+
+.settings-list:last-child {
+  margin-bottom: 100px;
 }
 
 .settings__setting {
