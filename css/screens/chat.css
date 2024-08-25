@@ -1,6 +1,7 @@
 #chat-screen {
   height: 140vh;
   background-image: url("../../screenshots/alienchat.png");
+  background-size: contain;
 }
 
 #chat-screen .alt-screen-header {
