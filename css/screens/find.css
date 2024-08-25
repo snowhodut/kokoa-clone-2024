@@ -80,6 +80,7 @@
   text-transform: uppercase;
   color: var(--font-grey);
   padding: 6px 0;
+  width: 270px;
 }
 
 .open-post__info {
