@@ -15,12 +15,13 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-size: 25px;
 }
 
 .welcome-header__text {
-  width: 60%;
+  margin-top: 20px;
+  width: 80%;
   opacity: 0.6;
 }
 

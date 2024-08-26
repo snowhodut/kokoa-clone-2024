@@ -88,3 +88,12 @@
     visibility: hidden;
   }
 }
+
+.friends-user-component {
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.friends-user-component .user-component {
+  margin-bottom: 30px;
+}
